@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<head>
+		<meta charset="utf-8">
+		<!-- web page title -->
+		<title>lv</title>
+		<!-- load favicon -->
+		<link rel="shortcut icon" type="image/png" href="/favicon_blue.png"/>
+		<!-- load css & font -->
+		<link rel="stylesheet" type="text/css" href="css/index_style.css">
+		<link rel="stylesheet" type="text/css" href="css/modal_style.css">
+		<link rel="stylesheet" type="text/css" href="css/cv_modal_style.css">
+		<link href="https://fonts.googleapis.com/css?family=Quattrocento" rel="stylesheet">
+		<!-- load js scripts -->
+		<script src="//d3js.org/d3.v3.min.js"></script>
+		<!-- load ? -->
+	</head>
+	<body>
+		<!-- main -->
+		<div class = "titles">
+			<h1 id = "name">lorenzo villaggi</h1>
+
+			<p class = "subtitles" id = "experiments">
+			<a href="https://hyperuranion.tumblr.com/" target="_blank">experiments</a></p>
+
+			<p class = "subtitles" id = "teaching">
+			<a href="http://measurespace.tumblr.com/" target="_blank">teaching</a></p>
+
+			<p class = "subtitles" id = "research">
+			<a href="https://www.researchgate.net/profile/Lorenzo_Villaggi" target="_blank">research</a></p>
+			<!-- Trigger/Open The Modal -->
+			<p class = "subtitles" id = "bio_and_contact">
+				<a>bio and contact</a></p>
+		</div>
+		<!-- The Modal -->
+		<div id="myModal" class="modal">
+		<!-- Modal content -->
+			<div class="modal-content">
+				<span class="close">&times;</span>
+					<p class="modal-body">
+					Lorenzo is an architect, researcher and educator based in New York City. <br />
+					He explores the future of architecture with  <a class = "link_in_body" href="https://www.thelivingnewyork.com" target="_blank">The Living</a>, interrogates the discipline with <a class = "link_in_body" href="https://www.c-o-l-o-n.com" target="_blank">: (pronounced "colon")</a>, experiments with new media through <a class = "link_in_body" href="http://www.special-methods.com/" target="_blank">Special Methods</a> and has thought graduate <a class = "link_in_body" href="http://measurespace.tumblr.com/" target="_blank">visual study seminars</a>.</p>
+					<br>
+					<p class="modal_links" id = "email_me">
+					lorenzo.villaggi@gmail.com</p>
+					<p class="modal_links" id = "instagram">
+						<a href="https://www.instagram.com/hyperuranus/" target="_blank">instagram</a></p>
+					<p class="modal_links" id = "twitter">
+						<a href="https://twitter.com/lorenzovillaggi?lang=en" target="_blank">twitter</a></p>
+
+						<!-- Trigger/Open The Modal -->
+						<p class = "modal_links" id = "cv">
+						<a>cv</a></p>
+			</div>
+		</div>
+
+		
+			<!-- The Modal -->
+		<div id="my_cv_Modal" class="cv_modal">
+		<!-- Modal content -->
+			<div class="cv_modal_content">
+				<span class="cv_close">&times;</span>
+					<p class="cv_modal_body">
+					Lorenzo cv</p>
+					<br>
+					<p class="cv_modal_links" id = "email_me">
+					lorenzo.villaggi@gmail.com</p>
+		</div>
+									
+		<script src="js/circles_force.js"></script>
+		<script src="js/modal_script.js"></script>
+		<!-- <script src="js/cv_modal_script.js"></script> -->
+	</body>
+</html>

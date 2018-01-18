@@ -1,0 +1,175 @@
+body{
+	background-color: #F2F2F2;
+}
+
+.titles{
+	position: absolute;
+	font-family: 'Quattrocento', serif;
+	font-size: 30px;
+	font-weight:lighter;
+	line-height: 60pt;
+	font-weight: normal;
+	color: 	#0000EE;
+	top: 20%;
+	left: 20%;
+	/*width: 100%;*/
+}
+
+#name{
+	font-family: 'Quattrocento', serif;
+	font-size: 45px;
+	font-weight:lighter;
+	line-height: 30pt;
+	font-weight: normal;
+	color: 	#0000EE;
+/* 	text-decoration: underline; */
+	display: inline;
+}
+
+#experiments{
+	position:relative;
+	left: 100%;
+	/*left: 20%;*/
+}
+
+#teaching{
+	position:relative;
+	left: 150%;
+	/*left: 20%;*/
+}
+
+#research{
+	position:relative;
+	left: 50%;
+	/*left: 20%;*/
+}
+
+#bio_and_contact{
+	position:relative;
+	left: 70%;
+	/*left: 20%;*/
+}
+
+
+
+/*MOBILE max-width: 768px*/
+
+@media only screen and (max-width: 768px) {
+  #name {
+    font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .subtitles {
+    left:10%;
+    font-size: 20px;
+  }
+}
+
+/*MOBILE max-width: 415px*/
+@media only screen and (max-width: 415px) {
+  .titles {
+    font-size: 25px;
+    line-height: 50pt;
+    top: 10%;
+    left: 5%;
+  }
+}
+
+@media only screen and (max-width: 415px) {
+  #name {
+    font-size: 40px;
+    background-color: #0000EE;
+    color: white;
+  }
+}
+
+@media only screen and (max-width: 415px) {
+  .subtitles {
+    font-size: 25px;
+    line-height: 85pt;
+  }
+}
+
+/* move titles for mobile view */
+@media only screen and (max-width: 415px) {
+  #experiments {
+	left: 15%;
+  }
+}
+@media only screen and (max-width: 415px) {
+  #teaching {
+	left: 65%;
+  }
+}
+@media only screen and (max-width: 415px) {
+  #research {
+	left: 40%;
+  }
+}
+@media only screen and (max-width: 415px) {
+  #bio_and_contact {
+	left: 5%;
+  }
+}
+
+#name:hover{
+	display: inline;
+	background-color: #0000EE;
+	color: white;
+/* 	font-weight:bolder; */
+}
+
+.subtitles:hover{
+	text-decoration: line-through;
+	color: #0000EE;
+}
+
+#bio_and_contact:hover{
+    /*text-decoration: line-through;*/
+    cursor: pointer;
+}
+
+a:link {
+    text-decoration: none;
+    color: #0000EE;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #0000EE;
+}
+
+a:hover {
+   text-decoration: none;
+   color: #0000EE;
+}
+
+a:active {
+    text-decoration: none;
+    color: #0000EE;
+}
+
+
+/* modal link hover styling */
+#email_me:hover{
+	text-decoration: line-through;
+	color: #0000EE;
+}
+
+#instagram:hover{
+	text-decoration: line-through;
+	color: #0000EE;
+}
+
+#twitter:hover{
+	text-decoration: line-through;
+	color: #0000EE;
+}
+
+#cv:hover{
+	text-decoration: line-through;
+	color: #0000EE;
+	cursor: pointer;
+}
