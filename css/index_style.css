@@ -7,7 +7,7 @@ body{
 	font-family: 'Quattrocento', serif;
 	font-size: 30px;
 	font-weight:lighter;
-	line-height: 60pt;
+	line-height: 50pt;
 	font-weight: normal;
 	color: 	#0000EE;
 	top: 20%;
@@ -16,38 +16,46 @@ body{
 }
 
 #name{
+	position: relative;
 	font-family: 'Quattrocento', serif;
+/* 	top:10%; */
 	font-size: 45px;
 	font-weight:lighter;
-	line-height: 30pt;
+	line-height: 0pt;
 	font-weight: normal;
 	color: 	#0000EE;
 /* 	text-decoration: underline; */
 	display: inline;
 }
 
+.subtitles{
+	position: relative;
+	top: 50%;
+}
+
 #experiments{
 	position:relative;
 	left: 100%;
-	/*left: 20%;*/
 }
 
 #teaching{
 	position:relative;
-	left: 150%;
-	/*left: 20%;*/
+	left: 200%;
+}
+
+#projects{
+	position:relative;
+	left: 80%;
 }
 
 #research{
 	position:relative;
-	left: 50%;
-	/*left: 20%;*/
+	left: 45%;
 }
 
 #bio_and_contact{
 	position:relative;
-	left: 70%;
-	/*left: 20%;*/
+	left: 200%;
 }
 
 
