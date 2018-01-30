@@ -1,0 +1,14 @@
+body{
+	background-color: #F2F2F2;
+}
+
+#main {
+	margin-top: 30px;
+	padding-top: 0px;
+	width: 1000px;
+	margin-left: auto ;
+  	margin-right: auto ;
+  	font-family: 'Quattrocento', serif;
+  	color: 	#0000EE;
+  }
+
