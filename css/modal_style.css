@@ -46,6 +46,12 @@
     color: #0000EE;
 }
 
+.link_in_body:hover{
+/*     text-decoration: line-through; */
+    color: white;
+    background-color: #0000EE;
+}
+
 @media only screen and (max-width: 415px) {
   .modal-content {
     position: relative;
